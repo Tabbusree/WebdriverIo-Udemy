@@ -1,0 +1,207 @@
+{
+  "gherkinDocument": {
+    "feature": {
+      "tags": [],
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "language": "en",
+      "keyword": "Feature",
+      "name": "Advanced WebPage Interactions",
+      "description": "",
+      "children": [
+        {
+          "scenario": {
+            "id": "a95726fa-6540-4308-a658-fba151fa4cd4",
+            "tags": [
+              {
+                "location": {
+                  "line": 3,
+                  "column": 3
+                },
+                "name": "@advancedweb",
+                "id": "d5ae8a23-261b-45ab-8f24-3a54580d2801"
+              },
+              {
+                "location": {
+                  "line": 3,
+                  "column": 16
+                },
+                "name": "@smoke",
+                "id": "26bad998-717f-4c50-863f-a9157dd19257"
+              },
+              {
+                "location": {
+                  "line": 3,
+                  "column": 23
+                },
+                "name": "@debug",
+                "id": "26925dd5-8fdb-4ba0-a186-48c30caac736"
+              }
+            ],
+            "location": {
+              "line": 4,
+              "column": 3
+            },
+            "keyword": "Scenario Outline",
+            "name": "<TestId>: Demo Advanced WebPage Interactions",
+            "description": "",
+            "steps": [
+              {
+                "id": "5188ea57-0a30-49ff-a10a-045e2b6beb07",
+                "location": {
+                  "line": 5,
+                  "column": 5
+                },
+                "keyword": "Given ",
+                "keywordType": "Context",
+                "text": "Login to inventory web application"
+              },
+              {
+                "id": "a6cc95c2-02a9-4370-9d86-c5d74f09751d",
+                "location": {
+                  "line": 6,
+                  "column": 5
+                },
+                "keyword": "Then ",
+                "keywordType": "Outcome",
+                "text": "Inventory page should list <NumberOfProducts>"
+              },
+              {
+                "id": "87cbbd58-9602-43fd-b7cd-3bcfd16e45a9",
+                "location": {
+                  "line": 7,
+                  "column": 5
+                },
+                "keyword": "Then ",
+                "keywordType": "Outcome",
+                "text": "Validate all products have valid price"
+              }
+            ],
+            "examples": [
+              {
+                "id": "e2294284-8ee7-4a50-bfa2-6334ef0be13f",
+                "tags": [],
+                "location": {
+                  "line": 9,
+                  "column": 5
+                },
+                "keyword": "Examples",
+                "name": "",
+                "description": "",
+                "tableHeader": {
+                  "id": "ce4a5e25-e055-434b-aa3a-d88606f2d04b",
+                  "location": {
+                    "line": 10,
+                    "column": 7
+                  },
+                  "cells": [
+                    {
+                      "location": {
+                        "line": 10,
+                        "column": 9
+                      },
+                      "value": "TestId"
+                    },
+                    {
+                      "location": {
+                        "line": 10,
+                        "column": 30
+                      },
+                      "value": "NumberOfProducts"
+                    }
+                  ]
+                },
+                "tableBody": [
+                  {
+                    "id": "1b5a55ef-06ea-460e-b044-c368302e7472",
+                    "location": {
+                      "line": 11,
+                      "column": 7
+                    },
+                    "cells": [
+                      {
+                        "location": {
+                          "line": 11,
+                          "column": 9
+                        },
+                        "value": "ADVANCED_WEB_TC003"
+                      },
+                      {
+                        "location": {
+                          "line": 11,
+                          "column": 45
+                        },
+                        "value": "6"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "comments": [],
+    "uri": "test\\features\\demo\\AdvancedWebInteractions.feature"
+  },
+  "pickle": {
+    "id": "0fd70749-23f2-4b1b-a671-44a2ef53b7bb",
+    "uri": "test\\features\\demo\\AdvancedWebInteractions.feature",
+    "astNodeIds": [
+      "a95726fa-6540-4308-a658-fba151fa4cd4",
+      "1b5a55ef-06ea-460e-b044-c368302e7472"
+    ],
+    "name": "ADVANCED_WEB_TC003: Demo Advanced WebPage Interactions",
+    "language": "en",
+    "steps": [
+      {
+        "id": "6978fde2-e69f-4fd6-8522-c71307961924",
+        "text": "Login to inventory web application",
+        "type": "Context",
+        "astNodeIds": [
+          "5188ea57-0a30-49ff-a10a-045e2b6beb07",
+          "1b5a55ef-06ea-460e-b044-c368302e7472"
+        ],
+        "keyword": "Given "
+      },
+      {
+        "id": "872445ee-3b38-49fc-a39d-da5b36c7f5a8",
+        "text": "Inventory page should list 6",
+        "type": "Outcome",
+        "astNodeIds": [
+          "a6cc95c2-02a9-4370-9d86-c5d74f09751d",
+          "1b5a55ef-06ea-460e-b044-c368302e7472"
+        ],
+        "keyword": "Then "
+      },
+      {
+        "id": "7ddaed71-9e0e-4c15-89b2-5d8802121613",
+        "text": "Validate all products have valid price",
+        "type": "Outcome",
+        "astNodeIds": [
+          "87cbbd58-9602-43fd-b7cd-3bcfd16e45a9",
+          "1b5a55ef-06ea-460e-b044-c368302e7472"
+        ],
+        "keyword": "Then "
+      }
+    ],
+    "tags": [
+      {
+        "name": "@advancedweb",
+        "astNodeId": "d5ae8a23-261b-45ab-8f24-3a54580d2801"
+      },
+      {
+        "name": "@smoke",
+        "astNodeId": "26bad998-717f-4c50-863f-a9157dd19257"
+      },
+      {
+        "name": "@debug",
+        "astNodeId": "26925dd5-8fdb-4ba0-a186-48c30caac736"
+      }
+    ]
+  },
+  "testCaseStartedId": "23c5935d-bdbf-41a8-ab1c-7fc8f13fdcb3"
+}
